@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.form-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+}
+
+main{
+    padding: 30px 50px;
+}
+
+.card{
+    border: 1px solid black;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.lineInput{
+
+    display: grid;
+    margin-bottom: 10px;
+
+}
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button{
+    text-align:center;
+}
+
+#form{
+
+    width: 50%;
+    
+
+}

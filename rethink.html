@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./style.css">
+   <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+   
+</head>
+
+<body>
+
+    <div class="form-box">
+    <form id="form" class="card" action="#">
+        <div>
+            <h2>Formulário</h2>
+
+            <div class="lineInput">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Informe o seu nome completo" >
+            </div>
+            <div class="lineInput">
+                <label for="profession">Profissão</label>
+                <input type="text" name="profession" id="profession" placeholder="Informe a sua profissão" >
+            </div>
+
+            <div class="lineInput">
+                <label for="age">Idade</label>
+                <input type="number" name="age" id="age" placeholder="Informe a sua idade" >
+            </div>
+            <div class="lineInput">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Informe seu melhor e-mail">
+            </div>
+            <div class="lineInput">
+                <label for="celular">Telefone</label>
+                <input type="tel" name="celular" id="celular" placeholder="Informe o seu celular">
+            </div>
+            <div class="lineInput">
+                <label for="data">Data de preenchimento</label>
+                <input type="date" name="data" id="data">
+            </div>
+
+        </div>
+        <div class="button">
+            <button type="button" class="btn btn-primary btn-lg">Salvar</button>
+            
+        </div>
+
+    </form>
+</div>
+
+
+</body>
+<script src="./rethink.js"></script>
+
+
+</html>
